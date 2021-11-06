@@ -1,0 +1,20 @@
+:root {
+  --color-primary: #0a6f74;
+  --color-secondary: #db5028;
+  --color-accent: #fbbc09;
+  --color-headings: #00586e;
+  --color-body: #2e282a;
+  --color-body-light: #f0efea;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+/* Typography */
+
+html {
+  font-size: 62.5%;
+}
