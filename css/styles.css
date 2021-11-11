@@ -257,3 +257,17 @@ h3 {
   position: relative;
   border-radius: 7px;
 }
+
+/* Grids */
+
+.grid {
+  display: grid;
+  row-gap: 3rem;
+}
+
+@media screen and (min-width: 768px) {
+  .grid--cols-2 {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5rem;
+  }
+}
