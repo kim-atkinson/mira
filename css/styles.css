@@ -160,6 +160,10 @@ h3 {
   padding: 2rem 3rem;
 }
 
+.card__header {
+  position: relative;
+}
+
 .card--primary .card__header {
   background-color: var(--color-primary);
   color: var(--color-body-light);
@@ -193,4 +197,21 @@ h3 {
 .plan__feature {
   margin: 2rem 0;
   font-size: 1.8rem;
+}
+
+.plan__popular-badge {
+  padding: 1.6rem 1rem;
+  background-color: var(--color-accent);
+  color: var(--color-body);
+  text-transform: uppercase;
+  position: absolute;
+  width: 200px;
+  top: 0;
+  right: 0;
+}
+
+.plan__popular-badge-text {
+  font-size: 1.6rem;
+  margin: 0;
+  text-align: center;
 }
