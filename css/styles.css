@@ -234,7 +234,7 @@ h3 {
 }
 
 .background--light {
-  background-color: #f0efea;
+  background-color: var(--color-body-light);
 }
 
 .profile__image {
