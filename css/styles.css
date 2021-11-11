@@ -146,3 +146,26 @@ h3 {
     opacity: 1;
   }
 }
+
+/* Cards */
+
+.card {
+  border-radius: 7px;
+  box-shadow: 0 0 20px 10px #f3f3f3;
+  overflow: hidden;
+}
+
+.card__header,
+.card__body {
+  padding: 2rem 3rem;
+}
+
+.card--primary .card__header {
+  background-color: var(--color-primary);
+  color: var(--color-body-light);
+}
+
+.card--secondary .card__header {
+  background-color: var(--color-secondary);
+  color: var(--color-body-light);
+}
