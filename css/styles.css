@@ -22,7 +22,7 @@ html {
 body {
   font-family: Helvetica, sans-serif;
   font-size: 2.4rem;
-  padding: 2rem;
+  padding: 10rem;
 }
 
 h1 {
@@ -214,4 +214,46 @@ h3 {
   font-size: 1.6rem;
   margin: 0;
   text-align: center;
+}
+
+/* Profiles */
+
+.profile {
+  width: 280px;
+  height: 200px;
+  position: relative;
+  border-radius: 7px;
+}
+
+.background--primary {
+  background-color: var(--color-primary);
+}
+
+.background--secondary {
+  background-color: var(--color-secondary);
+}
+
+.background--light {
+  background-color: #f0efea;
+}
+
+.profile__image {
+  position: absolute;
+  width: 280px;
+  height: 280px;
+  bottom: 0;
+}
+
+.profile__image--large {
+  position: absolute;
+  width: 368px;
+  height: 368px;
+  bottom: 0;
+}
+
+.profile--large {
+  width: 368px;
+  height: 250px;
+  position: relative;
+  border-radius: 7px;
 }
