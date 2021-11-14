@@ -22,11 +22,11 @@ html {
 body {
   font-family: Helvetica, sans-serif;
   font-size: 2.4rem;
-  padding: 10rem;
 }
 
 h1 {
   font-size: 4rem;
+  margin: 0 0 4rem 0;
 }
 
 h2 {
@@ -43,6 +43,12 @@ h3 {
   font-weight: bold;
   color: var(--color-primary);
   text-transform: uppercase;
+}
+
+.subtitle--lowercase {
+  text-transform: none;
+  color: var(--color-body);
+  margin-bottom: 6rem;
 }
 
 .small-text {
@@ -79,9 +85,9 @@ h3 {
 
 .icon-company {
   width: 100%;
-  max-width: 100px;
+  max-width: 130px;
   height: 100%;
-  max-height: 30px;
+  max-height: 32px;
 }
 
 /* Navigation */
@@ -270,4 +276,147 @@ h3 {
     grid-template-columns: 1fr 1fr;
     grid-gap: 5rem;
   }
+}
+
+/* Container */
+
+.container {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Hero */
+
+.hero {
+  background-color: var(--color-body-light);
+  padding: 18rem 0;
+}
+
+.hero__content {
+  padding: 12rem 0;
+}
+
+.hero__images {
+  position: relative;
+}
+
+.profile {
+  position: absolute;
+  bottom: 0;
+}
+
+.top {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.card__body--hero {
+  position: absolute;
+}
+
+.message__body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.message {
+  width: 250px;
+  height: 80px;
+  padding: 1.2rem;
+  background-color: white;
+  border-radius: 10px;
+  position: absolute;
+  bottom: -30px;
+  right: -40%;
+}
+
+.message__text {
+  font-size: 1.4rem;
+  margin: 0;
+}
+
+.message__image {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+/* Social Proof Bar */
+
+.testimonials {
+  padding: 5rem 0;
+}
+.logos-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.features__heading {
+  margin: 10rem 0 7.5rem 0;
+  font-weight: 400;
+  text-align: center;
+  font-size: 3, 6rem;
+  line-height: 1.4;
+}
+.features__image {
+  max-width: 400px;
+  height: auto;
+}
+
+.content-wrap {
+  display: flex;
+  align-items: center;
+}
+
+.features__image-wrap {
+  position: relative;
+}
+
+.features__image-wrap .message {
+  position: absolute;
+  right: 0;
+  top: -10px;
+}
+
+/* Features */
+
+article {
+  padding: 10rem 0;
+}
+
+/* Testimonial */
+
+.testimonial {
+  padding: 15rem 0;
+  background-color: var(--color-headings);
+}
+
+.fill--light {
+  fill: var(--color-body-light);
+}
+
+.profile--large {
+  position: relative;
+  bottom: 0;
+}
+
+.large-profile-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.plans {
+  padding: 10rem 0;
+}
+
+.plan {
+  width: calc(33.33% - 2rem);
+}
+
+.plans-wrap {
+  display: flex;
+  justify-content: space-between;
 }
