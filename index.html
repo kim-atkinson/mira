@@ -81,8 +81,8 @@
         </div>
       </div>
     </section>
-    <section class="testimonials container">
-      <div class="logos-wrap">
+    <section class="social-proof container">
+      <div class="grid grid--cols-3">
         <svg class="icon-company">
           <use xlink:href="images/sprite.svg#netflix"></use>
         </svg>
@@ -106,7 +106,7 @@
     <main>
       <section class="features container">
         <h2 class="features__heading">
-          Project Management Like You’ve<br />Never Experienced Before
+          Project Management Like You’ve<br/>Never Experienced Before
         </h2>
       </section>
       <article>
@@ -114,11 +114,11 @@
           <div class="grid grid--cols-2">
             <div class="features__image-wrap">
               <img
-                class="features__image"
+                class="features__image features__image--small "
                 src="images/three-coworkers.jpg"
                 alt=""
               />
-              <div class="message">
+              <div class="message message--none">
                 <div class="message__body">
                   <img
                     class="message__image"
@@ -146,23 +146,30 @@
       <article class="background--light">
         <div class="container">
           <div class="grid grid--cols-2">
-            <div class="features__image-wrap">
+            <div class="features__image-wrap reverse">
               <img
-                class="features__image"
+                class="features__image features__image--small "
                 src="images/man-laptop.jpg"
                 alt=""
               />
-              <div class="message">
-                <div class="message__body">
+              <div class="kickoff">
+                <header class="kickoff__header">
+                  <p class="kickoff__text">Team Kick-off Call</p>
+                  <p class="message__text">January 22, 2022 at 10:00am EST</p>
+                </header>
+                <div class="row">
+                  <img
+                    class="message__image"
+                    src="images/jennifer-rodriguez-small-orange.jpg"
+                    alt=""
+                  />
                   <img
                     class="message__image"
                     src="images/chris-colson-small-green.jpg"
                     alt=""
                   />
-                  <p class="message__text">
-                    Amazing! So glad we’re working together!
-                  </p>
                 </div>
+                <div class="kickoff__button">Join Meeting</div>
               </div>
             </div>
             <div class="content-wrap">
@@ -183,20 +190,21 @@
           <div class="grid grid--cols-2">
             <div class="features__image-wrap">
               <img
-                class="features__image"
+                class="features__image features__image--small"
                 src="images/two-coworkers-laptop.jpg"
                 alt=""
               />
-              <div class="message">
-                <div class="message__body">
-                  <img
-                    class="message__image"
-                    src="images/chris-colson-small-green.jpg"
-                    alt=""
-                  />
-                  <p class="message__text">
-                    Amazing! So glad we’re working together!
-                  </p>
+              <div class="monthly-insights">
+                <header class="monthly-insights__header">
+                  <div class="orange-circle"></div>
+                  <p class=
+                  "monthly-insights__heading">Monthly Insights</p>
+                </header>
+                <div class="monthly-insights__body">
+                  <div class="green-line"></div>
+                  <div class="green-line green-line--small"></div>
+                  <div class="green-line"></div>
+                  <div class="green-line green-line--small"></div>
                 </div>
               </div>
             </div>
@@ -214,40 +222,43 @@
       </article>
       <section class="testimonial">
         <div class="container">
-          <div class="grid grid--cols-2">
+          <div class="testimonial__wrap">
             <div class="large-profile-wrap">
               <div class="profile--large background--light">
                 <img class="profile__image--large" src="images/mark-patel.png" alt="" />
               </div>
             </div>
-            <div>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Adipiscing posuere ac aliquam et tristique molestie. Neque ac sed nibh commodo viverra ornare lectus. Tellus rhoncus fermentum lacinia viverra augue sollicitudin.</p>
+            <div  class="testimonial-content-wrap">
+              <p class="testimonial__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Adipiscing posuere ac aliquam et tristique molestie. Neque ac sed nibh commodo viverra ornare lectus. Tellus rhoncus fermentum lacinia viverra augue sollicitudin.</p>
               <div>
-                <p>Mark Patel</p>
-                <p>Senior Vice President</p>
-                <img src="images/netflix-white.svg" alt="">
+                <p class="testimonial__name">Mark Patel</p>
+                <p class="testimonial__title">Senior Vice President</p>
+                <img class="icon-company" src="images/netflix-grey.svg" alt="">
               </div>
             </div>
           </div>
         </div>
       </section>
       <section class="plans container">
-        <div class="plans-wrap">
+        <div class="grid plans-grid">
           <div class="plan">
             <div class="card card--primary">
               <header class="card__header">
-                <h3 class="plan__name">Pro</h3>
+                <h3 class="plan__name">Basic</h3>
                 <p class="plan__short-description">For hardcore teams</p>
-                <span class="plan__price">$20</span>
+                <span class="plan__price">$15</span>
                 <span class="plan__billing-cycle">/month</span>
               </header>
               <div class="card__body">
                 <ul class="list">
-                  <li class="plan__feature">Awesome project management tool</li>
-                  <li class="plan__feature">Awesome project management tool</li>
-                  <li class="plan__feature">Awesome project management tool</li>
-                  <li class="plan__feature">Awesome project management tool</li>
+                  <li class="plan__feature">Customizable dashboard and widgets</li>
+                  <li class="plan__feature">Add due date reminders</li>
+                  <li class="plan__feature">Host virtual meetings</li>
+                  <li class="plan__feature">Third party app integration</li>
+                  <li class="plan__feature">Offline mobile and desktop access</li>
+                  <li class="plan__feature">Unlimited users and projects</li>
                 </ul>
+                <a href="" class="btn-plan btn--block">Buy Now</a>
               </div>
             </div>
           </div>
@@ -264,20 +275,23 @@
               </header>
               <div class="card__body">
                 <ul class="list">
-                  <li class="plan__feature">Awesome project management tool</li>
-                  <li class="plan__feature">Awesome project management tool</li>
-                  <li class="plan__feature">Awesome project management tool</li>
-                  <li class="plan__feature">Awesome project management tool</li>
+                  <li class="plan__feature">Customizable dashboard and widgets</li>
+                  <li class="plan__feature">Add due dates reminders</li>
+                  <li class="plan__feature">Host virtual meetings</li>
+                  <li class="plan__feature">Third party app integration</li>
+                  <li class="plan__feature">Offline desktop and mobile access</li>
+                  <li class="plan__feature">Unlimited users and projects</li>
                 </ul>
+                <a href="" class="btn-plan btn--block">Buy Now</a>
               </div>
             </div>
           </div>
           <div class="plan">
             <div class="card card--primary">
               <header class="card__header">
-                <h3 class="plan__name">Pro</h3>
+                <h3 class="plan__name">Standard</h3>
                 <p class="plan__short-description">For hardcore teams</p>
-                <span class="plan__price">$20</span>
+                <span class="plan__price">$18</span>
                 <span class="plan__billing-cycle">/month</span>
               </header>
               <div class="card__body">
@@ -287,14 +301,49 @@
                   <li class="plan__feature">Host virtual meetings</li>
                   <li class="plan__feature">Third party app integration</li>
                   <li class="plan__feature">Offline mobile and desktop access</li>
-                  <li class="plan__feature">Unlimited users</li>
-                  <li class="plan__feature">Unlimited projects</li>
+                  <li class="plan__feature">Unlimited users and projects</li>
                 </ul>
+                <a href="" class="btn-plan btn--block">Buy Now</a>
               </div>
             </div>
         </div>
       </section>
     </main>
+    <footer class="footer">
+      <div class="footer-items container">
+        <p class="copyright">&copy 2021 Mira Inc.</p>
+        <div class="social-footer-wrap">
+          <p class="social-icons-caption">Follow us:</p>
+          <div class="social-icons">
+            <a href="">
+              <svg class="icon-social">
+                <use xlink:href="images/sprite.svg#social-facebook"></use>
+              </svg>
+            </a>
+            <a href="">
+              <svg class="icon-social">
+                <use xlink:href="images/sprite.svg#social-twitter"></use>
+              </svg>
+            </a>
+            <a href="">
+              <svg class="icon-social">
+                <use xlink:href="images/sprite.svg#social-instagram"></use>
+              </svg>
+            </a>
+            <a href="">
+              <svg class="icon-social">
+                <use xlink:href="images/sprite.svg#social-linkedin"></use>
+              </svg>
+            </a>
+            <a href="">
+              <svg class="icon-social">
+                <use xlink:href="images/sprite.svg#social-youtube"></use>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
     <script src="js/main.js"></script>
   </body>
 </html>
