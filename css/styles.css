@@ -94,8 +94,8 @@ h3 {
 }
 
 .btn:hover {
-  border: 2px solid var(--color-body-light);
-  background-color: var(--color-body-light);
+  border: 2px solid var(--color-secondary);
+  background-color: var(--color-secondary);
 }
 
 .btn--block {
