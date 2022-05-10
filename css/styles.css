@@ -252,6 +252,7 @@ h3 {
   background-color: var(--color-accent);
   color: var(--color-body);
   text-transform: uppercase;
+  border-top-right-radius: 6px;
   position: absolute;
   width: 150px;
   top: 0;
