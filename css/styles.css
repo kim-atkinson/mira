@@ -248,7 +248,7 @@ h3 {
 }
 
 .plan__popular-badge {
-  padding: 1.6rem 0.7rem;
+  padding: 1.2rem 0.7rem;
   background-color: var(--color-accent);
   color: var(--color-body);
   text-transform: uppercase;
