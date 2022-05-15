@@ -619,6 +619,7 @@ h3 {
 .features__image {
   max-width: 400px;
   height: auto;
+  border-radius: 7px;
 }
 
 @media screen and (max-width: 450px) {
