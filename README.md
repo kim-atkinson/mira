@@ -1,6 +1,6 @@
 # Mira Project Management App Website
 
-Mira is a landing page for a fictional project management app. This landing page contains components such as product feature blocks, social proof bars, and pricing plans.
+Mira is a landing page for a fictional project management app. This landing page contains product feature blocks, social proof bars, and pricing plan components.
 
 Tech Stack: Figma, HTML5, CSS3
 
