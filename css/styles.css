@@ -20,6 +20,10 @@ html {
   scroll-behavior: smooth;
 }
 
+@keyframes fadein {
+  0% { opacity: 0; }
+  100% { opacity: 1;}
+}
 body {
   font-family: Helvetica, sans-serif;
   font-size: 1.8rem;
